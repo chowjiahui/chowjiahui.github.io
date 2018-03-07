@@ -342,7 +342,7 @@ plt.show()
 ```
 
 
-![png](/ISIS-Project-1/output_32_0.png){:class="img-responsive"}
+![png](/ISIS-Project-1/output_32_0.jpg){:class="img-responsive"}
 
 
 The tweeting activity increases drastically after the Paris bombing attacks during November 2015.
