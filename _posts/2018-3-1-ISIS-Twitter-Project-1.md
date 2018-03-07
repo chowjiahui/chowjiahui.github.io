@@ -673,9 +673,9 @@ Even after filtering, the outdegree range is much larger than the indegree range
 
 ### Assessing the feasibility of attack prediction
 
-IEEE Paper (Zhou, 2017) used an LSTM for attack prediction based on tweets frequency of influential users and hashtag frequency. "The information we use for prediction is high-frequency hashtags with their frequency, and high-importance user with their involvement in one-day tweets, as well as the total tweets number for one day."
+An existing paper (Pro-ISIS Fanboys Network Analysis and Attack Detection thorugh Twitter Data, Zhou, 2017) used an LSTM for attack prediction based on tweets frequency of influential users and hashtag frequency. Information used for prediction is high-frequency hashtags, influential users' tweets involvement, as well as the total tweets number for one day.
 
-However, after looking at the dataset in more detail, I don't think that attack prediction makes sense given the intent of the tweets - most of it looks informative in nature with links to news articles or comments on Middle East current events. 
+However, after looking at the dataset in more detail, I am not sure if attack prediction makes sense given the intent of the tweets - most of it looks informative in nature with links to news articles or comments on Middle East current events. 
 
 Features I originally wanted to include:
 - Number of hashtag mentions 
