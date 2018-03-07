@@ -11,6 +11,8 @@ author:
 
 # Build settings
 markdown:       kramdown
+kramdown:
+  input: GFM
 
 # Assets
 sass:
