@@ -1,0 +1,26 @@
+# Site settings
+title:          Jia Hui's Projects
+description:    "Welcome! This page chronicles some of my adventures in data science :)"
+url:            "https://chowjiahui.github.io"
+
+# Author
+author:
+  name:         Jia Hui
+  url:          https://github.com/chowjiahui
+  email:        chowjiahuiw@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
