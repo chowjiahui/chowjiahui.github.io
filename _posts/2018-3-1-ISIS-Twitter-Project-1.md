@@ -422,7 +422,7 @@ plt.show()
 ```
 
 
-![png](/assets/ISIS-Project-1/output_39_0.jpg){:class='img-responsive'}
+![png](/assets/ISIS-Project-1/output_39_0.png){:class='img-responsive'}
 
 
 Some interesting notes on the words that appear above: 
