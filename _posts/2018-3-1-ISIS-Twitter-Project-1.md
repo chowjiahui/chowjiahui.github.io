@@ -360,7 +360,7 @@ plt.show()
 ```
 
 
-![png](/_posts/ISIS-Project-1/output_32_0.jpg)
+![png]({{"/_posts/ISIS-Project-1/output_32_0.jpg"|absolute_url}})
 
 
 
