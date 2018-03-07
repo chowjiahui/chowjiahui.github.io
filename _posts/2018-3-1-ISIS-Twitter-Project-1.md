@@ -1,27 +1,33 @@
 
 ---
-layout: post
-title: ISIS tweets project: Part 1.
----
 
-# Networks analysis and prediction on ISIS twitter network: Part 1
+# Networks analysis and prediction on pro-ISIS twitter network: Part 1
 
-Dataset from: https://www.kaggle.com/fifthtribe/how-isis-uses-twitter
+Dataset from: <https://www.kaggle.com/fifthtribe/how-isis-uses-twitter>   
 This project utilizes the above dataset of pro-ISIS tweets collected in a period during 2014 to 2015. 
 
 ---
 
 ## Part 1: Networks analysis
 
-Exploratory data analysis was first done to understand behaviour of twitter users, followed by networks analysis to identify influential users. The visualizations are under the 'ISIS_tweets.ipynb' file, and are done with Gephi. I also made an interactive networks diagram, using Gephi's sigma-js plugin: 
-<https://chowjiahui.github.io/ISISnetwork> 
+Exploratory data analysis was first done to understand behaviour of twitter users, followed by networks analysis to identify influential users. The visualizations are under the 'ISIS_tweets.ipynb' file, and are done with Gephi.    
+
+I also made an interactive networks diagram of the pro-ISIS network, using Gephi's sigma-js plugin: 
+<https://chowjiahui.github.io/ISISnetwork>    
 More improvements can be done here as I have yet to reduce the borders of the nodes. 
 
 Part 2 will focus on classification of the intent of tweets. 
 
+Overall Steps: 
+- Load and clean the data
+- Retrieve potential features from the tweets - usernames, URLs, language used, hashtags
+- Convert dates from string data type to datetime data type 
+- Exploratory data analysis
+- Networks analysis and visualization using Gephi
+
 ---
 
-## First, load the data.
+## Load the data.
 
 
 Getting the encoding type of the csv file to open it correctly.
@@ -193,7 +199,7 @@ tweets.to_csv(tweets_csv, encoding='utf-8')
 ---
 ## Data Cleaning  and Preprocessing
 
-Problems encountered (other than not knowing a word of arabic !!!): 
+Problems encountered (other than not knowing a word of arabic): 
 - a preliminary check on the first 1000 tweets do show that langdetect hates URLs
 - the langdetect algorithm  misclassified some english tweets as foreign languages when they contained URLs. 
 - some tweets are in 2 languages (arabic and english, for example)
@@ -336,7 +342,7 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+<img src="./ISIS-Project-1/output_30_0.png">
 
 
 The tweeting activity increases drastically after the Paris bombing attacks during November 2015.
