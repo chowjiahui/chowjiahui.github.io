@@ -359,8 +359,7 @@ plt.show()
 ```
 
 
-![png]({{"/_posts/ISIS-Project-1/output_32_0.jpg"|absolute_url}})
-
+![png](/assets/ISIS-Project-1/output_32_0.jpg){:class='img-responsive'}
 
 
 ```python
@@ -371,7 +370,7 @@ plt.show()
 ```
 
 
-![png](output_33_0.png)
+![png](/assets/ISIS-Project-1/output_33_0.jpg){:class='img-responsive'}
 
 
 Plot of tweets by time of the day. Expected the different timezones to balance themselves out but strangely there seems to be some cycle here as if most of the users are from the similar timezones.
@@ -393,7 +392,7 @@ plt.show()
 ```
 
 
-![png](output_36_0.png)
+![png](/assets/ISIS-Project-1/output_36_0.jpg){:class='img-responsive'}
 
 
 
@@ -406,7 +405,7 @@ plt.show()
 ```
 
 
-![png](output_37_0.png)
+![png](/assets/ISIS-Project-1/output_37_0.png){:class='img-responsive'}
 
 
 Let's do a wordcloud. This should be rather similar to the barplot shown above, but might tell us more info about the content of tweets.
@@ -423,7 +422,7 @@ plt.show()
 ```
 
 
-![png](output_39_0.png)
+![png](/assets/ISIS-Project-1/output_39_0.jpg){:class='img-responsive'}
 
 
 Some interesting notes on the words that appear above: 
@@ -624,8 +623,12 @@ There is some activity going on in the center of the network - these nodes are l
 
 The outer periphery of the network show less activity. These are likely other twitter users who were mentioned, but whose tweet activity were not captured by our dataset. 
 
-<img src="gephi_diagrams/v2_networks.png">
-<img src="gephi_diagrams/v2_nlabels.png">
+
+![png](/assets/ISIS-Project-1/v2_networks.png){:class='img-responsive'}
+
+
+![png](/assets/ISIS-Project-1/v2_nlabels.png){:class='img-responsive'}
+
 
 Notes on the graph above: 
 - colour shows the different communities in the network
@@ -636,10 +639,17 @@ One sees that are local communities surrounding the more influential users, with
 The network analysis statistics are shown below. The node centrality statistic used is the betweenness centrality. 
 
 The betweenness centrality of a graph node is first calculated thus: 
-<img src="gephi_diagrams/bc_formula.png">
+
+
+![png](/assets/ISIS-Project-1/bc_formula.png){:height="50%" width="50%"}
+
 
 for a node v. The numerator is the number of shortest paths from node s to node t, passing through v, while the denominator is the total shortest paths passing through node s to node t. This is normalised through the following equation: 
-<img src="gephi_diagrams/normal_bc_formula.png">
+
+
+![png](/assets/ISIS-Project-1/normal_bc_formula.png){:height="50%" width="50%"}
+
+
 This then gives a measure of the centrality of a node in the network. Nodes with higher betweenness centrality are more influential, as more information passes through that node. In this case, this would be influential twitter users who are key to information spreading. 
 
 
@@ -653,7 +663,8 @@ plt.show()
 ```
 
 
-![png](output_65_0.png)
+
+![png](/assets/ISIS-Project-1/output_65_0.png){:class='img-responsive'}
 
 
 
@@ -665,7 +676,7 @@ iof = sns.jointplot(x='indegree',y='outdegree',data=netsf)
 ```
 
 
-![png](output_66_0.png)
+![png](/assets/ISIS-Project-1/output_66_0.png){:class='img-responsive'}
 
 
 Even after filtering, the outdegree range is much larger than the indegree range. These users are broadcasting content (in the form of mentioning other users with words or video content) to users who were not in this dataset. 
