@@ -611,7 +611,7 @@ Note that values saved to g's edges must be integers or floats. The gexf format 
 
 Screenshots of network visualization done in Gephi. Influential users identified: Uncle_SamCoco, warrnews, mobi_ayubi, MaghrabiArabi, WarReporter1,  RamiAlLolah.
 
- <img src="gephi_diagrams/v2_compact.png">
+![png](/assets/ISIS-Project-1/v2_compact.png){:class='img-responsive'}
 
 Notes on the graph: 
 - Size of nodes determined by betweeness centrality of node
