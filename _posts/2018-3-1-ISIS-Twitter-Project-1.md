@@ -414,7 +414,7 @@ Let's do a wordcloud. This should be rather similar to the barplot shown above, 
 ```python
 wordcloud = WordCloud(relative_scaling=1, max_font_size=500, width=1800, height=1400, stopwords=sw).generate(text1)
 
-# plt.imshow(wordcloud.recolor(color_func=grey_color_func, random_state=3), interpolation='bilinear')
+interpolation='bilinear')
 plt.figure(figsize=(20,10))
 plt.imshow(wordcloud)
 plt.axis("off")
@@ -624,7 +624,7 @@ There is some activity going on in the center of the network - these nodes are l
 The outer periphery of the network show less activity. These are likely other twitter users who were mentioned, but whose tweet activity were not captured by our dataset. 
 
 
-![png](/assets/ISIS-Project-1/v2_networks.png){:class='img-responsive'}
+![png](/assets/ISIS-Project-1/output_67_0.png){:class='img-responsive'}
 
 
 ![png](/assets/ISIS-Project-1/v2_nlabels.png){:class='img-responsive'}
