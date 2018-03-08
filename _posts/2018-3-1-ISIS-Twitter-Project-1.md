@@ -611,7 +611,7 @@ Note that values saved to g's edges must be integers or floats. The gexf format 
 
 Screenshots of network visualization done in Gephi. Influential users identified: Uncle_SamCoco, warrnews, mobi_ayubi, MaghrabiArabi, WarReporter1,  RamiAlLolah.
 
-![png](/assets/ISIS-Project-1/v2_compact.png){:class='img-responsive'}
+![png](/assets/ISIS-Project-1/output_67_0.png){:class='img-responsive'}
 
 Notes on the graph: 
 - Size of nodes determined by betweeness centrality of node
@@ -624,10 +624,10 @@ There is some activity going on in the center of the network - these nodes are l
 The outer periphery of the network show less activity. These are likely other twitter users who were mentioned, but whose tweet activity were not captured by our dataset. 
 
 
-![png](/assets/ISIS-Project-1/output_67_0.png){:class='img-responsive'}
+![png](/assets/ISIS-Project-1/output_69_0.png){:class='img-responsive'}
 
 
-![png](/assets/ISIS-Project-1/v2_nlabels.png){:class='img-responsive'}
+![png](/assets/ISIS-Project-1/output_71_0.png){:class='img-responsive'}
 
 
 Notes on the graph above: 
@@ -641,13 +641,13 @@ The network analysis statistics are shown below. The node centrality statistic u
 The betweenness centrality of a graph node is first calculated thus: 
 
 
-![png](/assets/ISIS-Project-1/bc_formula.png){:height="50%" width="50%"}
+![png](/assets/ISIS-Project-1/output_73_0.png){:height="50%" width="50%"}
 
 
 for a node v. The numerator is the number of shortest paths from node s to node t, passing through v, while the denominator is the total shortest paths passing through node s to node t. This is normalised through the following equation: 
 
 
-![png](/assets/ISIS-Project-1/normal_bc_formula.png){:height="50%" width="50%"}
+![png](/assets/ISIS-Project-1/output_75_0.png){:height="50%" width="50%"}
 
 
 This then gives a measure of the centrality of a node in the network. Nodes with higher betweenness centrality are more influential, as more information passes through that node. In this case, this would be influential twitter users who are key to information spreading. 
