@@ -641,13 +641,13 @@ The network analysis statistics are shown below. The node centrality statistic u
 The betweenness centrality of a graph node is first calculated thus: 
 
 
-![png](/assets/ISIS-Project-1/output_73_0.PNG){:height="50%" width="50%"}
+![png](/assets/ISIS-Project-1/output_73_0.PNG){:height="20%" width="20%"}
 
 
 for a node v. The numerator is the number of shortest paths from node s to node t, passing through v, while the denominator is the total shortest paths passing through node s to node t. This is normalised through the following equation: 
 
 
-![png](/assets/ISIS-Project-1/output_77_0.PNG){:height="50%" width="50%"}
+![png](/assets/ISIS-Project-1/output_77_0.PNG){:height="20%" width="20%"}
 
 
 This then gives a measure of the centrality of a node in the network. Nodes with higher betweenness centrality are more influential, as more information passes through that node. In this case, this would be influential twitter users who are key to information spreading. 
